@@ -7,7 +7,7 @@ from weather import ob_havo_qidir
 from regionbutton import viloyatlar_btn
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token="7725039127:AAHDQ2nKCuxnzLy5OT-BXBSGrx3h33ighyI")
+bot = Bot(token="sizning tokeniz")
 dp = Dispatcher()
 
 @dp.message(Command("start"))
